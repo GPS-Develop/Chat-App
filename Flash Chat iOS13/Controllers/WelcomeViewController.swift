@@ -4,6 +4,17 @@ class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
     
+    // hides the navigation bar on main screen
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated) // good practice
+        navigationController?.isNavigationBarHidden = true
+    }
+    // unhides the navigation bar on other screens
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.isNavigationBarHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

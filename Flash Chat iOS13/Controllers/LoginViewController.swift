@@ -13,7 +13,7 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) {authResult, error in
             
                 if let e = error {
-                    let alert = UIAlertController(title: "Invalid Credentials", message: "Testing", preferredStyle: .alert)
+                    let alert = UIAlertController(title: "Error", message: e.localizedDescription, preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
                     self.present(alert, animated: true)
                     print(e.localizedDescription)
