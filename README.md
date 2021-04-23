@@ -1,8 +1,8 @@
 # Chat-App
 ### Screen Shots
 
-<img src="Github-Images/Img1.png" width="250"><img src="Github-Images/Img2.png" width="250">
-<img src="Github-Images/Img3.png" width="250"><img src="Github-Images/Img4.png" width="250">
+<img src="Github-Images/Img1.png" width="250"><img src="Github-Images/Img2.1.png" width="250">
+<img src="Github-Images/Img3.1.png" width="250"><img src="Github-Images/Img4.png" width="250">
 <img src="Github-Images/Img5.png" width="250"><img src="Github-Images/Img-G.gif" width="225">
 
 
